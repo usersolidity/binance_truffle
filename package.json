@@ -1,0 +1,36 @@
+{
+  "name": "binancetrufflebox",
+  "version": "1.0.0",
+  "description": "Binance Truffle Box ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:binance": "truffle migrate --network binance",
+    "verify:binance": "truffle run verify Migrations --network binance"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadorian/BinanceTruffleBox.git"
+  },
+  "keywords": [
+    "truffle",
+    "binance",
+    "box"
+  ],
+  "author": "Alejandro Adorjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadorian/BinanceTruffleBox/issues"
+  },
+  "homepage": "https://github.com/aadorian/BinanceTruffleBox#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.4"
+  }
+}

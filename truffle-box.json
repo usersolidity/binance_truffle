@@ -1,0 +1,16 @@
+{
+  "ignore": [
+    "README.md",
+    ".gitignore"
+  ],
+  "commands": {
+    "Compile contracts": "truffle compile",
+    "Migrate contracts": "truffle migrate",
+    "Migrate to Binance": "truffle migrate --network binance",
+    "Test contracts": "truffle test"
+    
+  },
+  "hooks": {
+    "post-unpack": ""
+  }
+}
